@@ -1,5 +1,12 @@
-let grid = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+let grid = ["salvo","salvo","salvo","salvo","salvo","salvo","salvo","salvo","salvo","salvo","salvo","salvo","salvo","salvo","salvo","salvo"];
+
+piazzaMine();
 
 function piazzaMine(){
-    let randomMina = Math.floor((Math.random() * 15))
+    let randomMina
+    for (let i=0; i<=1; i++){
+    grid[randomMina = Math.floor((Math.random() * 15))]="Boom"
+    }
 }
+
+export {grid};
